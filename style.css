@@ -39,6 +39,19 @@ body {
   cursor: pointer;
 }
 
+/* .modal {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 24px;
+  text-align: center;
+  margin-top: 12px;
+}
+
+.modal::backdrop {
+  background-color: #ccc;
+  opacity: 15%;
+} */
+
 .submit-form :placeholder-shown {
   font-family: "IBM Plex Sans", sans-serif;
 }
@@ -58,6 +71,10 @@ body {
   font-weight: 500;
   border: none;
   border-bottom: 1px solid #b8b0b05e;
+}
+
+.submit-form input:focus {
+  background-color: #ddd4d45e;
 }
 
 select {
@@ -81,6 +98,10 @@ textarea {
   font-weight: 500;
   border: 1px solid #b8b0b05e;
   border-radius: 8px;
+}
+
+textarea:focus {
+  background-color: #ddd4d45e;
 }
 
 button {
