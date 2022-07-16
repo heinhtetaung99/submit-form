@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;500;700&family=Merriweather:wght@400;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #e6e6e6;
+}
+
+.submit-form {
+  position: relative;
+  width: 380px;
+  margin: 64px auto;
+  padding: 36px 24px;
+  background-color: #fff;
+  border-radius: 24px;
+  box-shadow: 2px 4px 7px 0px rgba(0, 0, 0, 0.58);
+}
+
+.close-btn {
+  width: 10%;
+  opacity: 0.6;
+  padding-top: 12px;
+  padding-right: 12px;
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 50%;
+}
+
+.close-btn svg {
+  width: 100%;
+}
+
+.close-btn :hover {
+  cursor: pointer;
+}
+
+.submit-form :placeholder-shown {
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+.submit-form h3 {
+  margin-bottom: 48px;
+  text-align: center;
+  font-family: "Merriweather", serif;
+}
+
+.submit-form input {
+  width: 90%;
+  padding-bottom: 12px;
+  align-items: center;
+  margin: 0 14px 36px 14px;
+  font-size: 11px;
+  font-weight: 500;
+  border: none;
+  border-bottom: 1px solid #b8b0b05e;
+}
+
+select {
+  width: 90%;
+  margin: 0 14px 48px 14px;
+  padding-bottom: 12px;
+  border: none;
+  border-bottom: 1px solid #b8b0b05e;
+}
+
+select:hover {
+  cursor: pointer;
+}
+
+textarea {
+  width: 100%;
+  padding: 16px;
+  margin-bottom: 24px;
+  resize: none;
+  font-size: 11px;
+  font-weight: 500;
+  border: 1px solid #b8b0b05e;
+}
+
+button {
+  width: 100%;
+  padding: 16px;
+  font-family: "Merriweather", serif;
+  color: #fff;
+  background-color: #151534;
+  border: none;
+  border-radius: 42px;
+}
+
+button:hover {
+  color: #fff;
+  background-color: #20203f;
+  cursor: pointer;
+}
