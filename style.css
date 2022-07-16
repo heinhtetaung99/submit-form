@@ -80,6 +80,7 @@ textarea {
   font-size: 11px;
   font-weight: 500;
   border: 1px solid #b8b0b05e;
+  border-radius: 8px;
 }
 
 button {
@@ -90,10 +91,18 @@ button {
   background-color: #151534;
   border: none;
   border-radius: 42px;
+  margin-bottom: 24px;
 }
 
 button:hover {
   color: #fff;
   background-color: #20203f;
   cursor: pointer;
+}
+
+a {
+  font-family: "Merriweather", serif;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
 }
